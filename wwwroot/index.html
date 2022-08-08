@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Dutch Treat</title>
+    <link href="css/site.css" rel="stylesheet" />
+    <script src="lib/jquery/dist/jquery.min.js" defer></script>
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+    <h2>Dutch Treat</h2>
+    <div class="product-info">
+        <img src="img/VanGogh.jpg" alt="Van Gogh Self-Portrait" />
+        <h3>Mug</h3>
+        <ul class="product-properties">
+            <li>Price: $9.99</li>
+            <li>Artist: Van Gogh</li>
+            <li>Title: </li>
+            <li>Description: Self-portrait</li>
+        </ul>
+        <button id="btnBuy">Buy</button>
+    </div>
+
+    <!-- Collect information from the user -->
+    <div id="theForm">
+        <form action="/" method="post">
+            <label>Your Name: </label>
+            <br />
+            <input />
+            <br />
+            <label>Email:</label>
+            <br />
+            <input />
+            <br />
+            <label>Subject:</label>
+            <br />
+            <input />
+            <br />
+            <label>Message:</label>
+            <br />
+            <textarea rows="4"></textarea>
+            <br />
+            <input type="submit" name="inSubmit" value="Send Message" />
+        </form>
+    </div>
+
+    <div>
+        <div id="divLoginToggle">Login</div>
+        <form class="popup-form">
+            <div>
+                <label>Username</label>
+                <input />
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" />
+            </div>
+            <div>
+                <input type="checkbox" />
+                <label>Remember me?</label>
+            </div>
+            <div>
+                <input type="submit" value="Login"/>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

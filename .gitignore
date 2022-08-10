@@ -51,6 +51,7 @@ ipch/
 *.opensdf
 *.sdf
 *.cachefile
+*.dtbcache.v2
 
 # Visual Studio profiler
 *.psess
@@ -131,3 +132,5 @@ $RECYCLE.BIN/
 .DS_Store
 
 _NCrunch*
+*.v2
+.vs/DutchTreat/v16/.suo
